@@ -1,0 +1,60 @@
+.cab-page {
+    background-color: #112a49;
+}
+.logo > img{
+    background-color: #112a49;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+.container{
+    display: inline-block;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
+}
+.navbar a{
+    margin-bottom: 40px;
+    text-decoration: none;
+    color:white;
+    font-family:'Barlow', sans-serif;
+    padding: 10px 20px;
+    margin-left: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+.navbar .toggle{
+    display: none;
+}
+
+.item {
+    line-height: 1;
+    padding: 0 2em;
+    margin:1.5em;
+    color: #fff;
+    position: relative;
+  }
+  .item:before {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: all .3s;
+  }
+  .item:hover:before {
+    width: 100%;
+  }
+  
+  .tres:before {
+    left: 50%;
+  }
+  .tres:hover:before {
+    left:0;
+  }

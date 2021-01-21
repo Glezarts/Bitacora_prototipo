@@ -1,0 +1,14 @@
+
+ .imghvr-shutter-in-out-horiz {
+	&:after, &:before {
+		width: 0;
+		height: 100%;
+        opacity: 0.2;
+        
+	}
+	&:hover {
+		&:after, &:before {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,103 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+/*EXPERIENCIA BITACORA*/
+.content-page{
+    display: block;
+    background-color: white;
+}
+.content-page > .section1{
+    display: flex;
+}
+.content-page > .section1 img{
+    width: 600px;
+    margin-left: 100px;
+    padding: 50px;
+}
+.content-page > .section1 .text{
+    width: 600px;
+}
+.content-page > .section1 .text h4{
+    font-size: 40px;
+}
+/*CATEGORIAS*/
+.section2{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 150px;
+}
+.section2 img{
+    width: 350px;
+}
+.section2 h3{
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.section3{
+    display: flex;
+    background-color:  #112a49;
+    margin-top: 100px;
+    color:white; 
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.section3 h2{
+    font-size:3vw;
+    width: 600px;
+}
+.section3 p{
+    font-size: 25px;
+}
+
+.section3 a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+    margin-right: 300px;
+    padding: 0 10px;
+    transition: 0.5s;
+
+}
+.section3 a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.section3 i{
+    font-size: 60px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.section3 a:hover i{
+    color: black;
+}
+
+.section3 img{
+    width: 40%;
+    margin-top: -100px;
+    margin-left: 80px;
+}
+
+.content-page > .section4 {
+    display: flex;
+    margin-left: 150px;
+}
+.content-page > .section4 img{
+    width: 600px;
+    padding: 50px;
+}
+.content-page > .section4 .text{
+    width: 600px;
+}
+.content-page > .section4 .text h4{
+    font-size: 40px;
+}
+ 
